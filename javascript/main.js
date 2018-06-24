@@ -24,7 +24,7 @@ links.forEach(function(link){
     /**Después de cierto tiempo 1 vez*/
     //Retrasamos el redireccionamiento
     setTimeout(function(){
-      location.href = "/";
+      location.href = "../";
     },600);
 
     //setInterval(function) - hace que las acciones se ejecuten una y otra vez.
